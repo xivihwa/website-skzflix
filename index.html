@@ -1,0 +1,361 @@
+<html>
+  <head>
+    <meta name="description" content="Hello this is my first web page!." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="src/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="src/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="src/images/favicon_io/site.webmanifest" />
+
+    <title>SKZFLIX</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <img
+            src="https://seeklogo.com/images/S/stray-kids-logo-EFE4020196-seeklogo.com.png"
+            alt="logo"
+            class="brand__logo"
+          />
+        </div>
+
+        <div class="navbar__nav__items">
+          <div class="nav__item">
+            <div class="dropdown__container">
+              <i class="fas fa-globe"></i>
+              <select
+                name="languages"
+                id="languagesSelect"
+                class="language__drop__down"
+              >
+                <option value="en" selected style="color: #ffffff">
+                  English
+                </option>
+                <option value="ua" style="color: #ffffff">Українська</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__bg__image__container">
+          <img
+            src="src/images/main_background/main_bg_skz.jpg"
+            alt="BG hero image"
+            class="hero__bg__image"
+          />
+        </div>
+        <div class="hero__bg__overlay"></div>
+
+        <div class="hero__card">
+          <h1 class="hero__title">SKZFLIX</h1>
+          <p class="hero__subtitle lng-subtitle">Watch anywhere.</p>
+          <p class="hero__description lng-description">
+            Ready to watch? Choose the video <br />
+            you're looking for.
+          </p>
+        </div>
+      </section>
+      <section class="features__container">
+        <!-- Feature 1 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title lng-musicTitle">Music</h3>
+            <h5 class="feature__sub__title lng-musicDescription">
+              All albums Stray Kids are collected here - from <br />
+              the very beginning of their career to the present day.
+            </h5>
+            <button class="play__button lng-playButton">
+              Play <i class="fal fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="feature__image__container">
+            <img
+              src="src/images/bg/desktop/desktop-music.png"
+              alt="Feature image"
+              class="feature__image"
+            />
+            <div class="feature__backgroud__video__container">
+              <video
+                autoplay=""
+                loop=""
+                muted=""
+                class="feature__backgroud__video"
+              >
+                <source
+                  src="src/video/music/video-music-bg.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title">V Live</h3>
+            <h5 class="feature__sub__title lng-liveDescription">
+              There are V Live from Channie's room, <br />
+              Maknae's private life, Hyunjin's serias <br />
+              and all the VLives of other members of the group.
+            </h5>
+            <button class="play__button lng-watchButton">
+              Watch <i class="fal fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="feature__image__container">
+            <img
+              src="src/images/bg/desktop/iPhone-bg.png"
+              alt="Feature image"
+              class="feature__2__image"
+            />
+            <div class="feature__2__backgroud__video__container">
+              <video
+                autoplay=""
+                loop=""
+                muted=""
+                class="feature__backgroud__video"
+              >
+                <source src="src/video/iPhone/VLive-bg.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title">Stray Kids Original</h3>
+            <h5 class="feature__sub__title lng-originalDescription">
+              Here you can find all <br />
+              the film making, dance practice, <br />
+              two kids' rooms and much more.
+            </h5>
+            <button class="play__button lng-watchButton">
+              Watch <i class="fal fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="feature__image__container">
+            <img
+              src="src/images/bg/foto/bg-palaroid.png"
+              alt="Feature image"
+              class="feature__3__image"
+            />
+            <div>
+              <img
+                src="src/images/bg/foto/skz-bg-palaroid.png"
+                alt="skz_palaroid"
+                class="feature__image__background"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Feature 4 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title lng-shows">Mnet Shows and TV/Radio</h3>
+            <h5 class="feature__sub__title lng-showsDescription">
+              Look at the Mnet show where the Stray kids were performing.
+            </h5>
+            <button class="play__button lng-watchButton">
+              Watch <i class="fal fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="feature__3__backgroud__video__container">
+            <video
+              autoplay=""
+              loop=""
+              muted=""
+              class="feature__3__backgroud__video"
+            >
+              <source
+                src="src/video/mnet/mnet-video-skz.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="FAQ__list__container">
+        <h1 class="FAQ__heading lng-questions">Frequently Asked Questions</h1>
+        <div class="FAQ__list">
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-skzflix">
+              What is Skzflix?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible">
+              <p class="lng-answerSkz">
+                Skzflix is a compilation of all the YouTube videos related to
+                Stray Kids.
+              </p>
+              <p class="lng-answerSkzflix">
+                You can watch as much as you want, whenever you want, without a
+                single ad. There's always something new to discover.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-skz">
+              What is Stray Kids?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerSkz">
+              <p>
+                Stray Kids is a South Korean boy band formed by JYP
+                Entertainment through the 2017 reality show of the same name.
+                The group is composed of eight members: Bang Chan, Lee Know,
+                Changbin, Hyunjin, Han, Felix, Seungmin, and I.N. Originally a
+                nine-piece group, member Woojin left due to undisclosed personal
+                reasons in October 2019.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-bangchan">
+              Who is Bang Chan in group?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerBangchan">
+              <p>
+                Christopher Bang Chan was born on October 3, 1997 in Seoul,
+                South Korea. He is the leader, producer, vocalist and dancer of
+                the group Stray Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-know">
+              Who is Lee Know? <i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerKnow">
+              <p>
+                Lee Minho was born on October 25, 1998 in Gimpo, South Korea. He
+                is the main dancer, vocalist and visual of the group Stray Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-changbin">
+              Who is Changbin?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerChangbin">
+              <p>
+                Seo Changbin was born on August 11, 1999 in Yongin, South Korea.
+                He is the main rapper and producer of the group Stray Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-hyunjin">
+              Who is Hyunjin?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerHyunjin">
+              <p>
+                Hwang Hyunjin was born on March 20, 2000 in Seoul, South Korea.
+                He is the main dancer, rapper and visual of the group Stray
+                Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-han">
+              Who is Han?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerHan">
+              <p>
+                Han Jisung was born on September 14, 2000 in Incheon, South
+                Korea. He is the main rapper, vocalist and producer of the group
+                Stray Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-felix">
+              Who is Felix?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerFelix">
+              <p>
+                Felix Lee (Lee Yongbok) was born on September 15, 2000 in
+                Sydney, Australia. He is the main dancer, rapper and visual of
+                the group Stray Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-seungmin">
+              Who is Seungmin?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerSeungmin">
+              <p>
+                Kim Seungmin was born on September 22, 2000 in Seoul, South
+                Korea. He is the main vocalist of the group Stray Kids.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title lng-in">
+              Who is I.N.?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible lng-answerIn">
+              <p>
+                Yang Jeongin was born on February 8, 2001 in Busan, South Korea.
+                He is the vocalist and maknae of the group Stray Kids.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__row__1 lng-email">
+        <h4>
+          Questions? Call 000 000 000 00 <br />
+          Or email: iiiiiiiiii.gmail.com
+        </h4>
+      </div>
+      <div class="footer__row__3">
+        <div class="dropdown__container">
+          <i class="fas fa-globe"></i>
+          <select
+            name="languages"
+            id="languagesSelect"
+            class="language__drop__down change-language"
+          >
+            <option value="english" selected>English</option>
+            <option value="ukrainian">Українська</option>
+          </select>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="src/language.js"></script> -->
+    <script src="src/index.js"></script>
+  </body>
+</html>
