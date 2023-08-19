@@ -9,8 +9,12 @@ document.getElementById("liveButton").addEventListener("click", function () {
 document
   .getElementById("originalButton")
   .addEventListener("click", function () {
-    window.location.href = "live.html";
+    window.location.href = "original.html";
   });
+
+document.getElementById("showButton").addEventListener("click", function () {
+  window.location.href = "show.html";
+});
 
 let accordian = document.getElementsByClassName("FAQ__title");
 
