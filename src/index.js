@@ -6,6 +6,12 @@ document.getElementById("liveButton").addEventListener("click", function () {
   window.location.href = "live.html";
 });
 
+document
+  .getElementById("originalButton")
+  .addEventListener("click", function () {
+    window.location.href = "live.html";
+  });
+
 let accordian = document.getElementsByClassName("FAQ__title");
 
 for (let i = 0; i < accordian.length; i++) {
