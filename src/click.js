@@ -1,17 +1,17 @@
 document.getElementById("playButton").addEventListener("click", function () {
-  window.location.href = "music.html";
+  window.open("music.html", "_blank");
 });
 
 document.getElementById("liveButton").addEventListener("click", function () {
-  window.location.href = "live.html";
+  window.open("live.html", "_blank");
 });
 
 document
   .getElementById("originalButton")
   .addEventListener("click", function () {
-    window.location.href = "original.html";
+    window.open("original.html", "_blank");
   });
 
 document.getElementById("showButton").addEventListener("click", function () {
-  window.location.href = "show.html";
+  window.open("show.html", "_blank");
 });
